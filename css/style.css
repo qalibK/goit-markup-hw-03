@@ -77,7 +77,6 @@ img {
   align-items: center;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-navigation {
@@ -120,6 +119,7 @@ img {
   line-height: 1.5;
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-color);
+  padding: 24px 0;
 }
 .address-list-item {
   color: var(--primary-address-color);
@@ -374,13 +374,13 @@ img {
   letter-spacing: var(--primary-letter-spacing);
   color: #2e2f42;
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .cards-text-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .card-text {
