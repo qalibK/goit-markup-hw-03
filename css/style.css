@@ -127,6 +127,7 @@ img {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: var(--primary-letter-spacing);
+  padding: 24px 0;
 }
 .header-list-item > a:hover,
 .header-list-item > a:focus,
