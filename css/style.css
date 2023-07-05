@@ -77,6 +77,7 @@ img {
   align-items: center;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -119,8 +120,6 @@ img {
   line-height: 1.5;
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .address-list-item {
   color: var(--primary-address-color);
@@ -275,7 +274,7 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   text-align: center;
 }
-.team-list-item > h3 {
+.team-list-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -284,7 +283,7 @@ img {
   margin-bottom: 8px;
 }
 
-.team-list-item > p {
+.team-list-text > p {
   color: var(--primary-address-color);
   font-size: 16px;
   line-height: 1.5;
@@ -378,10 +377,10 @@ img {
 }
 
 .cards-text-box {
-  margin-bottom: 8px;
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .card-text {
